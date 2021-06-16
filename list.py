@@ -45,7 +45,7 @@ for x in fruits:
 print(newlist)
 #alternate
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-
+#List comprehension
 newlist = [x for x in fruits if "a" in x]
 
 print(newlist)
